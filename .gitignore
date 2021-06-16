@@ -74,3 +74,5 @@ typings/
 
 # FuseBox cache
 .fusebox/
+lib/service/kitsu.js
+lib/service/kitsu.json
