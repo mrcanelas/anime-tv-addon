@@ -1,0 +1,11 @@
+---
+application:
+  name: "anime-tv-addon"
+  project: "anime-tv-addon"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-anime-tv-addon"
+  routes:
+  - application_name: "anime-tv-addon"
+    paths:
+    - "/*"
