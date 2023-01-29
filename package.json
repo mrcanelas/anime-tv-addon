@@ -1,0 +1,30 @@
+{
+  "name": "anime.brasil",
+  "version": "0.0.3",
+  "description": "Anime Brasil",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test/*",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stremio/addon-helloworld"
+  },
+  "keywords": [
+    "stremio",
+    "stremio-addons",
+    "addons"
+  ],
+  "author": "Smart Code OOD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stremio/addon-helloworld/issues"
+  },
+  "homepage": "https://github.com/Stremio/addon-helloworld",
+  "dependencies": {
+    "axios": "^1.2.6",
+    "stremio-addon-sdk": "^1.6.10",
+    "user-agents": "^1.0.1275"
+  }
+}

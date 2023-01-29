@@ -1,0 +1,66 @@
+{
+  "id": "anime.brasil.addon",
+  "version": "0.0.3",
+  "icon": "https://i.pinimg.com/736x/be/74/2c/be742c1ecbff6f2e89b24dbebcaa4927.jpg",
+  "name": "Anime Brasil",
+  "description": "Addon for animes in portuguese.",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["series"],
+  "idPrefixes": ["ab:"],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "anime.brasil.serie",
+      "extra": [
+        {
+          "name": "search",
+          "isRequired": false
+        },
+        {
+          "name": "genre",
+          "options": [
+            "Lançamentos",
+            "Aventura",
+            "Acao",
+            "Comedia",
+            "Drama",
+            "Dublado",
+            "Ecchi",
+            "Escolar",
+            "Esporte",
+            "Fantasia",
+            "Filme",
+            "Harem",
+            "Historico",
+            "Jogo",
+            "Josei",
+            "Magia",
+            "Mecha",
+            "Militar",
+            "Misterio",
+            "Ova",
+            "Poderes",
+            "Psicologico",
+            "Romance",
+            "Samurai",
+            "Sci-fi",
+            "Seinen",
+            "Shoujo",
+            "Shounen",
+            "Slice_of_life",
+            "Sobrenatural",
+            "Suspense",
+            "Terror",
+            "Yaoi",
+            "Yuri"
+          ],
+          "isRequired": false
+        },
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    }
+  ]
+}
