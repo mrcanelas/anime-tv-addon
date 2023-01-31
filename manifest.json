@@ -5,8 +5,8 @@
   "name": "Anime Brasil",
   "description": "Addon for animes in portuguese.",
   "resources": ["catalog", "meta", "stream"],
-  "types": ["anime"],
-  "idPrefixes": ["ab:"],
+  "types": ["anime", "movie", "series"],
+  "idPrefixes": ["ab", "kitsu", "tt"],
   "catalogs": [
     {
       "type": "anime",
