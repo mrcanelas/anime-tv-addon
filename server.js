@@ -8,7 +8,7 @@ serveHTTP(addonInterface, { port: PORT })
     .then(res => {
         connect().then((uri) => {
             console.log(`MONGO URI: ${uri}`)
-            scheduleJob('* * 3 * * ', function () {
+            scheduleJob('0 0 */2 ? * *', function () {
                 console.log('Mapping');
                 mappingImdb()
             });
